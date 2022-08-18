@@ -39,6 +39,8 @@ object FormMain: TFormMain
         ExplicitHeight = 85
         inherited Label1: TLabel
           Width = 611
+          Caption = 'Title custom'
+          ExplicitWidth = 101
         end
         inherited Label2: TLabel
           Width = 611
@@ -72,6 +74,8 @@ object FormMain: TFormMain
         ExplicitHeight = 85
         inherited Label1: TLabel
           Width = 611
+          Caption = 'New Title'
+          ExplicitWidth = 79
         end
         inherited Label2: TLabel
           Width = 611
@@ -98,6 +102,8 @@ object FormMain: TFormMain
         ExplicitWidth = 318
         inherited Label1: TLabel
           Width = 699
+          Caption = 'Title changed'
+          ExplicitWidth = 111
         end
       end
       inherited Panel3: TPanel

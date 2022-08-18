@@ -10,25 +10,30 @@ object Frame1: TFrame1
     Width = 320
     Height = 87
     Align = alClient
+    BevelOuter = bvNone
     TabOrder = 0
     ExplicitLeft = 200
     ExplicitTop = 24
     ExplicitWidth = 185
     ExplicitHeight = 41
     object Panel2: TPanel
-      Left = 1
-      Top = 1
+      Left = 0
+      Top = 0
       Width = 88
-      Height = 85
+      Height = 87
       Align = alLeft
+      Color = clSilver
+      ParentBackground = False
       TabOrder = 0
+      ExplicitLeft = 1
+      ExplicitTop = 1
       ExplicitHeight = 68
       object Image1: TImage
         AlignWithMargins = True
         Left = 4
         Top = 4
         Width = 80
-        Height = 77
+        Height = 79
         Align = alClient
         ExplicitLeft = 48
         ExplicitTop = 24
@@ -37,10 +42,10 @@ object Frame1: TFrame1
       end
     end
     object Panel3: TPanel
-      Left = 89
-      Top = 1
-      Width = 230
-      Height = 85
+      Left = 88
+      Top = 0
+      Width = 232
+      Height = 87
       Align = alClient
       TabOrder = 1
       ExplicitLeft = 160
@@ -51,7 +56,7 @@ object Frame1: TFrame1
         AlignWithMargins = True
         Left = 4
         Top = 4
-        Width = 222
+        Width = 224
         Height = 19
         Align = alTop
         Caption = 'Title'
@@ -67,14 +72,16 @@ object Frame1: TFrame1
         AlignWithMargins = True
         Left = 4
         Top = 29
-        Width = 222
-        Height = 52
+        Width = 224
+        Height = 54
         Align = alClient
         Caption = 
           'Lorem ipsum dolor sit amet. Ut dolore voluptas est inventore eve' +
           'niet ab magnam minima aut quae incidunt a omnis galisum eum vero' +
           ' culpa id omnis iusto.'
         WordWrap = True
+        ExplicitWidth = 222
+        ExplicitHeight = 52
       end
     end
   end

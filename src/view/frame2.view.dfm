@@ -10,14 +10,17 @@ object Frame2: TFrame2
     Width = 320
     Height = 93
     Align = alClient
+    BevelOuter = bvNone
     TabOrder = 0
     ExplicitHeight = 240
     object Panel2: TPanel
-      Left = 1
-      Top = 1
-      Width = 318
+      Left = 0
+      Top = 0
+      Width = 320
       Height = 41
       Align = alTop
+      Color = clSilver
+      ParentBackground = False
       TabOrder = 0
       ExplicitLeft = 104
       ExplicitTop = 96
@@ -26,7 +29,7 @@ object Frame2: TFrame2
         AlignWithMargins = True
         Left = 4
         Top = 4
-        Width = 310
+        Width = 312
         Height = 33
         Align = alClient
         Alignment = taCenter
@@ -43,10 +46,10 @@ object Frame2: TFrame2
       end
     end
     object Panel3: TPanel
-      Left = 1
-      Top = 42
-      Width = 318
-      Height = 50
+      Left = 0
+      Top = 41
+      Width = 320
+      Height = 52
       Align = alClient
       TabOrder = 1
       ExplicitLeft = 72
@@ -57,8 +60,8 @@ object Frame2: TFrame2
         AlignWithMargins = True
         Left = 4
         Top = 4
-        Width = 310
-        Height = 42
+        Width = 312
+        Height = 44
         Align = alClient
         Caption = 
           'Lorem ipsum dolor sit amet. Ut dolore voluptas est inventore eve' +

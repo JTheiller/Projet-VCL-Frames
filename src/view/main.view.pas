@@ -12,6 +12,7 @@ type
     Frame12: TFrame1;
     Frame21: TFrame2;
     Frame13: TFrame1;
+    Frame22: TFrame2;
   private
     { Private declarations }
   public
